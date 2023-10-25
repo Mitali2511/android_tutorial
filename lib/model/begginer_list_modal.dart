@@ -1,9 +1,9 @@
 
-class BeginnerListModal {
+class BeginnerListModel {
     String? id;
     String? title;
 
-    BeginnerListModal({this.id, this.title});
+    BeginnerListmodel({this.id, this.title});
 
     BeginnerListModal.fromJson(Map<String, dynamic> json) {
         id = json["id"];
